@@ -2,10 +2,11 @@ version: '3'
 services:
   python3:
     build: .
+    working_dir: /root/
     container_name: python3.6
     tty: true
     volumes:
-      - ./workspace:/workspace
+      - ./src:/root/workspace/src
       - ./config:/root/.config/matplotlib
     ports:
       - "8888:8888"
