@@ -9,6 +9,7 @@ __pycache__/
 data/
 config/
 .ipynb_checkpoints/
+workspace/
 
 # C extensions
 *.so
